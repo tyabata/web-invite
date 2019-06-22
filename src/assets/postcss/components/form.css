@@ -1,0 +1,19 @@
+.notice {
+  margin: 16px 0 16px 0;
+}
+.alert-register {
+  background-color: #fff;
+}
+
+.form-description {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, .54);
+}
+.request-area {
+  margin-bottom: 16px;
+}
+
+.notice-text {
+  font-weight: bold;
+  text-align: right;
+}

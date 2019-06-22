@@ -1,0 +1,48 @@
+.headline {
+  text-align: center;
+  margin: 36px 0 8px 0;
+
+  .logo_invi {
+    /* 2/3 */
+    width: 320px;
+    max-width: 100%;
+  }
+  .logo_date {
+    width: 147px;
+    max-width: 100%;
+  }
+  .logo_place {
+    width: 187px;
+    max-width: 100%;
+  }
+  .logo_fee {
+    width: 107px;
+    max-width: 100%;
+  }
+  .logo_dress {
+    width: 340px;
+    max-width: 100%;
+  }
+}
+
+.info_word {
+  text-align: center;
+}
+
+.family-name {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: right;
+}
+.accent-text {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.map-iframe {
+  border: 1px solid #333333;
+}
+
+.image-main {
+  margin-bottom: 12px;
+}
