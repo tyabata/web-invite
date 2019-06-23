@@ -5,9 +5,9 @@
   "author": "tyabata",
   "private": true,
   "scripts": {
-    "dev": "npm run dev-server & nuxt-ts dev",
+    "dev": "npm run dev-server & nuxt dev",
     "dev-server": "API_HOST=${npm_package_config_bucket} node check.js",
-    "generate": "API_HOST=${npm_package_config_bucket} nuxt-ts generate",
+    "generate": "API_HOST=${npm_package_config_bucket} nuxt generate",
     "lint": "tslint --project .",
     "precommit": "npm run lint",
     "setup": "echo 'input your s3-bucket' && read BUCKET && npm config set app-invites:bucket $BUCKET",
@@ -18,9 +18,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxt/typescript": "^2.8.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^2.6.0",
-    "nuxt-ts": "^2.4.3",
+    "nuxt": "^2.8.1",
+    "ts-node": "^8.3.0",
     "vue-class-component": "^6.3.2",
     "vue-property-decorator": "^7.3.0",
     "vuetify": "^1.3.14",

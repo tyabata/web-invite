@@ -1,4 +1,6 @@
-module.exports = {
+import NuxtConfiguration from '@nuxt/config';
+
+const config: NuxtConfiguration = {
   srcDir: 'src/',
   mode: 'spa',
 
@@ -71,15 +73,12 @@ module.exports = {
     extend(config: any, context: any) {
       console.log(`======= ${process.env.API_HOST}`);
     },
-    typescript: true,
     cssSourceMap: true,
     postcss: {
       plugins: {
         'postcss-import': {},
         'postcss-mixins': {},
-        'postcss-preset-env': {
-          browsers: []
-        },
+        'postcss-preset-env': {},
 
         'postcss-nested': {},
         // css minify
@@ -88,3 +87,5 @@ module.exports = {
     }
   }
 };
+
+module.exports = config;

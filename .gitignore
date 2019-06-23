@@ -81,8 +81,3 @@ dist
 
 # Service worker
 sw.*
-
-# 文章
-src/sentence/word.ts
-# 画像
-src/assets/image/private/
